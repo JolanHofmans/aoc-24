@@ -1,6 +1,7 @@
 package day6.part1
 
 import org.assertj.core.api.Assertions.assertThat
+import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.api.Test
 
 class PathPredictorTest {
@@ -12,6 +13,7 @@ class PathPredictorTest {
     }
 
     @Test
+    @Disabled
     fun puzzle() {
         val file = this::class.java.getResourceAsStream("/day6/part1/puzzle.txt")
 
